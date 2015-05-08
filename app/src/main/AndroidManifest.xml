@@ -17,8 +17,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity_ListView_Array"
+            android:name=".Activity_Array"
             android:label="@string/title_activity_activity__list_view__array" >
+        </activity>
+        <activity
+            android:name=".Activity_ArrayList"
+            android:label="@string/title_activity_activity__array_list" >
         </activity>
     </application>
 

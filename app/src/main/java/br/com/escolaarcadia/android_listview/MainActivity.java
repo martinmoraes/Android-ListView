@@ -2,7 +2,6 @@ package br.com.escolaarcadia.android_listview;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,18 +10,24 @@ import android.widget.Button;
 
 
 public class MainActivity extends Activity {
-    Button botao;
+    Button botao1, botao2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        botao = (Button) findViewById(R.id.buttonArray);
+        botao1 = (Button) findViewById(R.id.buttonArray);
+        botao2 = (Button) findViewById(R.id.buttonArrayList);
     }
 
     public void onClick_Array(View view){
-        Intent intent = new Intent(this, Activity_ListView_Array.class);
+        Intent intent = new Intent(this, Activity_Array.class);
+        startActivity(intent);
+    }
+
+    public void onClick_ArrayList(View view){
+        Intent intent = new Intent(this, Activity_ArrayList.class);
         startActivity(intent);
     }
     @Override

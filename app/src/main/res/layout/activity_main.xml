@@ -26,4 +26,13 @@
         android:layout_marginTop="43dp"
         android:onClick="onClick_Array"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/com_array_list"
+        android:id="@+id/buttonArrayList"
+        android:layout_below="@+id/buttonArray"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick_ArrayList"/>
+
 </RelativeLayout>

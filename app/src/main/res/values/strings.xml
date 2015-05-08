@@ -6,4 +6,8 @@
     <string name="com_array">ListView com Array</string>
     <string name="exemplos_listview">Exemplos de ListView</string>
     <string name="title_activity_activity__list_view__array">ListView Array</string>
+    <string name="title_activity_activity__array_list">ArrayList</string>
+    <string name="com_array_list">ListView com ArrayList</string>
+
+
 </resources>
